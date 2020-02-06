@@ -34,6 +34,11 @@ Lst = {1, 3, 8, 412, 43, 2, 20}
 #length of list
 len(Lst)
 
+#while loop
+x = 0
+while(x < 5):
+        x+=1
+        print("X = " + str(x))
 #for loop by index
 for i in range(len(Lst)):
 	print(Lst[i])
